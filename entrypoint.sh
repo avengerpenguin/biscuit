@@ -1,13 +1,10 @@
 #!/bin/sh
 
-BISCUIT="$PWD/{{cookiecutter.name}}"
-
-if [ -n "${GITHUB_WORKSPACE}" ]; then
-  cd "${GITHUB_WORKSPACE}" || exit1
-fi
+BISCUIT="/biscuit/{{cookiecutter.name}}"
 
 set -ex
 
+pwd
 tree
 
 # First pass; check for expected files
