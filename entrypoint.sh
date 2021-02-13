@@ -8,6 +8,8 @@ fi
 
 set -ex
 
+tree
+
 # First pass; check for expected files
 test -f README.md
 test -f setup.py
