@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 BISCUIT="$PWD/{{cookiecutter.name}}"
 
