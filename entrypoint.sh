@@ -23,3 +23,5 @@ grep pre-commit setup.py
 diff "${BISCUIT}/.pre-commit-config.yaml" .pre-commit-config.yaml
 diff "${BISCUIT}/pyproject.toml" pyproject.toml
 diff "${BISCUIT}/tox.ini" tox.ini
+diff "${BISCUIT}/.github/workflows/biscuit.yml" .github/workflows/biscuit.yml
+diff "${BISCUIT}/.github/workflows/python.yml" .github/workflows/python.yml
