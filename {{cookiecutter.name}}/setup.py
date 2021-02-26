@@ -14,5 +14,9 @@ setup(
     author_email="github@rossfenning.co.uk",
     packages=[NAME],
     description="{{cookiecutter.description}}",
+    setup_requires=[
+        "setuptools_scm>=3.3.1",
+        "pre-commit",
+    ],
     install_requires=[],
 )
