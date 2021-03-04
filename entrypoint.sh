@@ -8,7 +8,7 @@ pwd
 tree
 
 # First pass; check for expected files
-test -f README.md
+test -f README.md || test -f README.rst
 test -f setup.py
 test -f tox.ini
 test -f pyproject.toml
