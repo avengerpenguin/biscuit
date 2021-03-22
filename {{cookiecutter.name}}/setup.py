@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 from setuptools import setup
 
-
-NAME="{{cookiecutter.name}}"
+NAME = "{{cookiecutter.name}}"
 setup(
     name=NAME,
     use_scm_version={
