@@ -20,7 +20,6 @@ grep use_scm_version setup.py
 grep pre-commit setup.py
 
 # Files we don't expect to change
-diff "${BISCUIT}/../.pre-commit-config.yaml" .pre-commit-config.yaml
 diff "${BISCUIT}/pyproject.toml" pyproject.toml
 diff "${BISCUIT}/tox.ini" tox.ini
 diff "${BISCUIT}/mypy.ini" mypy.ini
