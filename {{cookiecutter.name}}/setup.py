@@ -12,6 +12,7 @@ setup(
     author="Ross Fenning",
     author_email="github@rossfenning.co.uk",
     packages=[NAME],
+    package_data={NAME: ["py.typed"]},
     description="{{cookiecutter.description}}",
     setup_requires=[
         "setuptools_scm>=3.3.1",
