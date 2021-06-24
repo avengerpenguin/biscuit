@@ -1,6 +1,6 @@
 name: biscuit
 
-on: [push]
+on: [ push ]
 
 jobs:
   biscuit:
