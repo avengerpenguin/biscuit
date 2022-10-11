@@ -1,5 +1,10 @@
 exclude: '^$|venv'
 repos:
+repos:
+  - repo: https://github.com/andreoliwa/nitpick
+    rev: v0.32.0
+    hooks:
+      - id: nitpick
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.2.0
     hooks:
